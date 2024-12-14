@@ -1,2 +1,4 @@
-npm init -y
-npm i express mongoose multer jsonwebtoken bcrypt
+### to run
+  npm install
+  npm intsall mongoose nodemon express cors 
+  nodemon server.js
