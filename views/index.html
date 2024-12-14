@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1>List Of Users Enrolled</h1>
+        <form
+            enctype="multipart/form-data"
+            id="uploadForm"
+        >
+            <input
+                type="text"
+                id="name"
+                placeholder="Name"
+            />
+            <input
+                type="text"
+                id="rollno"
+                placeholder="Roll No."
+            />
+            <input
+                type="email"
+                id="email"
+                placeholder="Email"
+            />
+            <input
+                type="number"
+                id="semester"
+                placeholder="Semester"
+            />
+            <input
+                type="text"
+                id="password"
+                placeholder="Password"
+            />
+            <input
+                type="text"
+                id="member"
+                placeholder="Member"
+            />
+            <input
+                type="file"
+                id="image"
+                name="image"
+                placeholder="Image"
+            />
+            <input type="submit" />
+        </form>
+        <div id="users"></div>
+
+        <h1>List of Events</h1>
+        <form
+            enctype="multipart/form-data"
+            id="uploadEvent"
+        >
+            <input
+                type="text"
+                id="nameEvent"
+                placeholder="Event Name"
+            />
+            <input
+                type="text"
+                id="venueEvent"
+                placeholder="Venue"
+            />
+            <input
+                type="number"
+                id="dateEvent"
+                placeholder="Date"
+            />
+            <input
+                type="text"
+                id="timeEvent"
+                placeholder="Time"
+            />
+            <input
+                type="text"
+                id="guestEvent"
+                placeholder="Guest"
+            />
+            <input
+                type="number"
+                id="seatsEvent"
+                placeholder="Seats"
+            />
+            <input
+                type="text"
+                id="descriptionEvent"
+                placeholder="Description"
+            />
+            <input
+                type="file"
+                id="imageEvent"
+                placeholder="Image"
+            />
+            <input type="submit" />
+        </form>
+        <div id="events"></div>
+
+        <h1>List of Merchs</h1>
+        <form
+            enctype="multipart/form-data"
+            id="uploadMerch"
+        >
+            <input
+                type="text"
+                id="nameMerch"
+                placeholder="Merch Name"
+            />
+            <input
+                type="number"
+                id="priceMerch"
+                placeholder="Price"
+            />
+            <input
+                type="text"
+                id="descriptionMerch"
+                placeholder="Description"
+            />
+            <input
+                type="file"
+                id="imageMerch"
+                placeholder="Image"
+            />
+            <input type="submit" />
+        </form>
+        <div id="merchs"></div>
+
+        <h1>List of Webinars</h1>
+        <form
+            enctype="multipart/form-data"
+            id="uploadWebinar"
+        >
+            <input
+                type="text"
+                id="titleWebinar"
+                placeholder="Webinar Title"
+            />
+            <input
+                type="text"
+                id="linkWebinar"
+                placeholder="Webinar Link"
+            />
+            <input
+                type="text"
+                id="venueWebinar"
+                placeholder="Venue"
+            />
+            <input
+                type="number"
+                id="dateWebinar"
+                placeholder="Date"
+            />
+            <input
+                type="text"
+                id="timeWebinar"
+                placeholder="Time"
+            />
+            <input
+                type="text"
+                id="descriptionWebinar"
+                placeholder="Description"
+            />
+            <input type="submit" />
+        </form>
+        <div id="webinars"></div>
+
+        <h1>Logout Option</h1>
+        <button id="logout">Logout</button>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
